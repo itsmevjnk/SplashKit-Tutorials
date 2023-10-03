@@ -1,7 +1,11 @@
 While SplashKit can draw text on graphical windows on its own, only the generic 8x8 bitmap font is bundled with the library with no scaling:
+
 ![Default font](splashkit-8x8.png)
+
 While this is generally sufficient for getting started with graphics, as you build your graphical program to be more sophisticated, this will not be enough, and you may want to supply your own fonts and set your own font sizes, so the testing screen above can look something like this:
+
 ![Custom font](custom-font.png)
+
 In which case, SplashKit has got you covered! In this article, you will learn how to use custom fonts in SplashKit for drawing text, as well as a couple of tips for that.
 # Getting started
 The first and most important thing that you need is, well, fonts! SplashKit supports TrueType (`.ttf`) and OpenType (`.otf`) font formats, and can therefore handle most fonts, so you are not limited in this regard. Just pick a font and use it!
